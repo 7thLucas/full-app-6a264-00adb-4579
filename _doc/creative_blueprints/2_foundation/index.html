@@ -1,0 +1,81 @@
+<style>
+  .mode-landscape .sl-foundation-layout {
+    flex-direction: row;
+  }
+  .mode-portrait .sl-foundation-layout {
+    flex-direction: column;
+  }
+  .mode-landscape .sl-foundation-left {
+    width: 58%;
+  }
+  .mode-landscape .sl-foundation-right {
+    width: 42%;
+  }
+  .mode-portrait .sl-foundation-left {
+    width: 100%;
+  }
+  .mode-portrait .sl-foundation-right {
+    width: 100%;
+    max-height: 35%;
+  }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-foundation-layout flex h-full">
+
+    <!-- Left: Problem / Solution narrative -->
+    <div class="sl-foundation-left flex flex-col justify-center gap-10 p-12">
+
+      <!-- Section label -->
+      <span class="text-xs font-semibold tracking-widest uppercase" style="color: #6366F1;">
+        Why It Matters
+      </span>
+
+      <!-- The Problem -->
+      <div class="flex flex-col gap-4">
+        <div class="flex items-center gap-3">
+          <span class="flex items-center justify-center w-8 h-8 rounded-full text-sm font-bold text-white" style="background-color: #EF4444;">!</span>
+          <h2 class="text-2xl font-bold" style="color: #1E293B;">The Problem</h2>
+        </div>
+        <p class="text-base leading-relaxed max-w-lg" style="color: #475569;">
+          Video files are opaque. Creators and marketing teams upload content with no visibility into quality, encoding efficiency, or structural composition — then wonder why engagement drops or playback stutters. Manual inspection doesn't scale, and scattered CLI tools aren't built for collaboration.
+        </p>
+        <div class="flex gap-2 mt-1">
+          <span class="px-3 py-1 rounded-full text-xs font-medium" style="background-color: #FEF2F2; color: #DC2626;">Blind publishing</span>
+          <span class="px-3 py-1 rounded-full text-xs font-medium" style="background-color: #FEF2F2; color: #DC2626;">Quality guesswork</span>
+          <span class="px-3 py-1 rounded-full text-xs font-medium" style="background-color: #FEF2F2; color: #DC2626;">No team workflow</span>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <div class="w-16 h-0.5 rounded-full" style="background-color: #E2E8F0;"></div>
+
+      <!-- The Solution -->
+      <div class="flex flex-col gap-4">
+        <div class="flex items-center gap-3">
+          <span class="flex items-center justify-center w-8 h-8 rounded-full text-sm font-bold text-white" style="background-color: #6366F1;">✓</span>
+          <h2 class="text-2xl font-bold" style="color: #1E293B;">The Solution</h2>
+        </div>
+        <p class="text-base leading-relaxed max-w-lg" style="color: #475569;">
+          Video Analyzer turns every upload into structured, searchable intelligence — metadata, quality scores, scene timelines, and smart tags — in seconds, not minutes. Built for teams with roles, sharing, and open exports so your data is always accessible and never locked in.
+        </p>
+        <div class="flex gap-2 mt-1">
+          <span class="px-3 py-1 rounded-full text-xs font-medium" style="background-color: #EEF2FF; color: #6366F1;">Instant analysis</span>
+          <span class="px-3 py-1 rounded-full text-xs font-medium" style="background-color: #EEF2FF; color: #6366F1;">Team-ready</span>
+          <span class="px-3 py-1 rounded-full text-xs font-medium" style="background-color: #EEF2FF; color: #6366F1;">No lock-in</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Right: Visual -->
+    <div class="sl-foundation-right flex items-center justify-center p-6">
+      <div class="w-full h-full rounded-2xl overflow-hidden" style="background: linear-gradient(180deg, #EEF2FF 0%, #F0F9FF 100%);">
+        <img src="http://localhost:8001/common/image-generation?prompt=Split%20screen%20comparison%20showing%20chaotic%20scattered%20video%20files%20on%20the%20left%20transforming%20into%20clean%20organized%20dashboard%20with%20charts%20and%20metadata%20cards%20on%20the%20right%2C%20indigo%20and%20sky%20blue%20accents%2C%20minimal%20modern%20illustration"
+             alt="Problem to solution transformation"
+             class="w-full h-full object-cover" />
+      </div>
+    </div>
+
+  </div>
+</section>
