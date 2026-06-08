@@ -1,0 +1,103 @@
+<style>
+  .mode-landscape .sl-benefits-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .mode-portrait .sl-benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .mode-landscape .sl-roi-block {
+    flex-direction: row;
+  }
+  .mode-portrait .sl-roi-block {
+    flex-direction: column;
+  }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-12 gap-8">
+
+    <!-- Header -->
+    <div class="flex flex-col gap-2">
+      <span class="text-xs font-semibold tracking-widest uppercase" style="color: #6366F1;">
+        Measurable Impact
+      </span>
+      <h2 class="text-3xl font-extrabold tracking-tight" style="color: #1E293B;">
+        Why Teams Choose Video Analyzer
+      </h2>
+    </div>
+
+    <!-- Metric Cards Grid -->
+    <div class="sl-benefits-grid grid gap-4">
+
+      <!-- Metric 1 -->
+      <div class="flex flex-col gap-2 p-5 rounded-xl border" style="border-color: #E2E8F0;">
+        <span class="text-xs font-semibold uppercase tracking-wider" style="color: #6366F1;">Speed</span>
+        <span class="text-3xl font-extrabold" style="color: #1E293B;">Seconds</span>
+        <p class="text-xs leading-relaxed" style="color: #64748B;">
+          From upload to full analysis — metadata, quality score, and scene breakdown delivered instantly, not after manual review cycles.
+        </p>
+      </div>
+
+      <!-- Metric 2 -->
+      <div class="flex flex-col gap-2 p-5 rounded-xl border" style="border-color: #E2E8F0;">
+        <span class="text-xs font-semibold uppercase tracking-wider" style="color: #0EA5E9;">Quality Assurance</span>
+        <span class="text-3xl font-extrabold" style="color: #1E293B;">100%</span>
+        <p class="text-xs leading-relaxed" style="color: #64748B;">
+          Every video is scored and artifact-checked automatically. No more publishing under-encoded or degraded content by accident.
+        </p>
+      </div>
+
+      <!-- Metric 3 -->
+      <div class="flex flex-col gap-2 p-5 rounded-xl border" style="border-color: #E2E8F0;">
+        <span class="text-xs font-semibold uppercase tracking-wider" style="color: #F59E0B;">Collaboration</span>
+        <span class="text-3xl font-extrabold" style="color: #1E293B;">Team-Ready</span>
+        <p class="text-xs leading-relaxed" style="color: #64748B;">
+          Role-based access, shareable analysis links, and workspace-scoped libraries — built for teams from day one, not bolted on later.
+        </p>
+      </div>
+
+      <!-- Metric 4 -->
+      <div class="flex flex-col gap-2 p-5 rounded-xl border" style="border-color: #E2E8F0;">
+        <span class="text-xs font-semibold uppercase tracking-wider" style="color: #6366F1;">Searchability</span>
+        <span class="text-3xl font-extrabold" style="color: #1E293B;">Every Tag</span>
+        <p class="text-xs leading-relaxed" style="color: #64748B;">
+          Auto-generated and custom tags make your entire video library searchable. Find any asset by content, codec, quality, or keyword.
+        </p>
+      </div>
+
+      <!-- Metric 5 -->
+      <div class="flex flex-col gap-2 p-5 rounded-xl border" style="border-color: #E2E8F0;">
+        <span class="text-xs font-semibold uppercase tracking-wider" style="color: #0EA5E9;">Data Ownership</span>
+        <span class="text-3xl font-extrabold" style="color: #1E293B;">Zero Lock-in</span>
+        <p class="text-xs leading-relaxed" style="color: #64748B;">
+          Export everything as JSON or PDF. Your analysis data is yours — portable, open-format, and always downloadable.
+        </p>
+      </div>
+
+      <!-- Metric 6 -->
+      <div class="flex flex-col gap-2 p-5 rounded-xl border" style="border-color: #E2E8F0;">
+        <span class="text-xs font-semibold uppercase tracking-wider" style="color: #F59E0B;">Signal-to-Noise</span>
+        <span class="text-3xl font-extrabold" style="color: #1E293B;">Only What Matters</span>
+        <p class="text-xs leading-relaxed" style="color: #64748B;">
+          Data-rich, not data-noisy. Key metrics surface first; detailed breakdowns are one click deeper via progressive disclosure.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- ROI Summary Block -->
+    <div class="sl-roi-block flex items-center gap-6 p-6 rounded-xl mt-auto" style="background: linear-gradient(135deg, #6366F1 0%, #0EA5E9 100%);">
+      <div class="flex flex-col gap-1">
+        <span class="text-sm font-semibold text-white opacity-80">Bottom Line</span>
+        <h3 class="text-xl font-extrabold text-white">
+          Stop guessing. Start seeing.
+        </h3>
+      </div>
+      <div class="w-px h-10 bg-white opacity-20"></div>
+      <p class="text-sm leading-relaxed text-white opacity-90 max-w-md">
+        Video Analyzer replaces scattered tools and manual inspection with one precise, team-ready platform — so every video you publish meets your standard.
+      </p>
+    </div>
+
+  </div>
+</section>
